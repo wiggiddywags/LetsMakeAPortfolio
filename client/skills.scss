@@ -1,0 +1,50 @@
+.skills {
+	float: left;
+	clear: right;
+	width: 100%;
+	margin: 50px 0px 30px 30px;
+}
+
+.skillsTop {
+	float: left;
+	clear: right;
+	width: 100%;
+	margin: 5px;
+	text-align: left;
+	font-weight: 600;
+  font-family: avenir;
+  font-weight: 200;
+}
+
+.skillsBottom {
+	float: left;
+	clear: right;
+	width: 80%;
+	margin: 2px 0px 0px 0px;
+}
+
+.progress {
+	background:#fff;
+	height:30px;
+}
+
+.progress-bar {
+  background-image: -webkit-linear-gradient(left, skyblue 0%,
+    turquoise 100%);
+  background-image: -moz-linear-gradient(left, skyblue 0%,
+    turquoise 100%);
+  background-image: -o-linear-gradient(left, skyblue 0%,
+    turquoise 100%);
+  background-image: linear-gradient(to right, skyblue 0%,
+    turquoise 100%);
+	height:100%;
+	width:0%;
+}
+
+
+.adobe, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, .ui, .ux, .rwd, .mobile, .rapidproto {
+ 	-webkit-transition: width 4.50s ease !important;
+ 	-moz-transition: width 4.50s ease !important;
+   	-o-transition: width 4.50s ease !important;
+   	transition: width 4.50s ease !important;
+ }
